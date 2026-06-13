@@ -21,7 +21,7 @@ const VerifiedBadge = ({ compact = false, className }: VerifiedBadgeProps) => (
         {!compact && "Verified"}
       </span>
     </TooltipTrigger>
-    <TooltipContent>Claimed and maintained by the PM themselves</TooltipContent>
+    <TooltipContent>Claimed and maintained by the builder themselves</TooltipContent>
   </Tooltip>
 );
 

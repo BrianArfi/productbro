@@ -1,0 +1,2010 @@
+[
+  {
+    "slug": "brian-arfi",
+    "name": "Brian Arfi Faridhi",
+    "discipline": "PRODUCT",
+    "role": "Fractional Head of Product",
+    "company": "Independent (ex-Tokopedia, ex-Hijra)",
+    "city": "Jakarta",
+    "tags": [
+      "PLATFORM",
+      "AI",
+      "BLOCKCHAIN"
+    ],
+    "focus": "PRODUCT LEADER",
+    "experience": "16+ YRS",
+    "linkedin": "https://www.linkedin.com/in/brianarfi",
+    "photo": "",
+    "bio": [
+      "Brian is a product leader with 16+ years building and scaling products across platform, AI and blockchain. He has driven growth at Tokopedia and Hijra, founded his own venture, and now works as a fractional Head of Product helping founders reach product-market fit.",
+      "He hosts the BroBri podcast and community, where he interviews the product builders featured throughout this index."
+    ],
+    "claimed": true,
+    "showcase": [
+      {
+        "title": "BroBri",
+        "description": "Hosts the BroBri podcast and community for product builders in Indonesia.",
+        "link": "https://www.youtube.com/@brianarfi"
+      }
+    ]
+  },
+  {
+    "slug": "sofian-hadiwijaya",
+    "name": "Sofian Hadiwijaya",
+    "discipline": "PRODUCT",
+    "role": "Head of Product",
+    "company": "Superbank",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "DIGITAL BANKING",
+      "AI"
+    ],
+    "focus": "FINTECH PM",
+    "experience": "10+ YRS",
+    "linkedin": "https://www.linkedin.com/in/sofianhw",
+    "photo": "",
+    "bio": [
+      "Sofian is Group Head of Product at Superbank, a digital bank in Indonesia, and a Forbes 30 Under 30 Asia honoree who previously co-founded Warung Pintar.",
+      "He works across product, AI, data and Web3, and was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "gerald-halasan",
+    "name": "Gerald Halasan",
+    "discipline": "PRODUCT",
+    "role": "Principal Product Manager",
+    "company": "Rakuten",
+    "city": "Singapore",
+    "tags": [
+      "MARKETPLACE",
+      "E-COMMERCE"
+    ],
+    "focus": "PRODUCT MANAGER",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Gerald is a Principal Product Manager at Rakuten. Gerald was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "catur-pw",
+    "name": "Catur PW",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "KezFlo",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "PAYMENTS"
+    ],
+    "focus": "FOUNDER",
+    "experience": "8+ YRS",
+    "linkedin": "https://www.linkedin.com/in/caturpw/",
+    "photo": "",
+    "bio": [
+      "Catur is Founder of KezFlo. Catur was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "maulana-sh",
+    "name": "Maulana SH",
+    "discipline": "ENGINEERING",
+    "role": "Engineering Manager",
+    "company": "Canva",
+    "city": "Jakarta",
+    "tags": [
+      "DESIGN TOOLS",
+      "SAAS"
+    ],
+    "focus": "ENGINEERING LEAD",
+    "experience": "10+ YRS",
+    "linkedin": "https://www.linkedin.com/in/maulana-sh-77522bb1/",
+    "photo": "",
+    "bio": [
+      "Maulana is an Engineering Manager at Canva. Maulana was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "chandra-marsono",
+    "name": "Chandra Marsono",
+    "discipline": "FOUNDER",
+    "role": "Co-Owner",
+    "company": "RankUp.id",
+    "city": "Jakarta",
+    "tags": [
+      "SEO",
+      "MARKETING"
+    ],
+    "focus": "FOUNDER",
+    "experience": "10+ YRS",
+    "linkedin": "https://www.linkedin.com/in/chandramarsono/",
+    "photo": "",
+    "bio": [
+      "Chandra is Co-Owner of RankUp.id. Chandra was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "achmad-nafila-rozie",
+    "name": "Achmad Nafila Rozie",
+    "discipline": "BUSINESS",
+    "role": "Senior Data Analyst",
+    "company": "Bolt/Flip",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "DATA"
+    ],
+    "focus": "DATA & ANALYTICS",
+    "experience": "8+ YRS",
+    "linkedin": "https://www.linkedin.com/in/achmadrozie/",
+    "photo": "",
+    "bio": [
+      "Achmad is a Senior Data Analyst at Bolt/Flip. Achmad was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "fitoy-wicaksana",
+    "name": "Fitoy Wicaksana",
+    "discipline": "PRODUCT",
+    "role": "Director of Product",
+    "company": "Astra Tech",
+    "city": "Dubai",
+    "tags": [
+      "FINTECH",
+      "BLOCKCHAIN",
+      "SUPERAPPS"
+    ],
+    "focus": "FINTECH PRODUCT",
+    "experience": "12+ YRS",
+    "linkedin": "https://www.linkedin.com/in/fitoy",
+    "photo": "",
+    "bio": [
+      "Fitoy is Director of Product at Astra Tech in Dubai, leading product across lifestyle super-apps, fintech and digital banking, with earlier roles at Fasset and Hijra.",
+      "An Imperial College London alum, he was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "yahya-ekananta",
+    "name": "Yahya Ekananta",
+    "discipline": "DESIGN",
+    "role": "Senior Product Designer",
+    "company": "VIDA Digital Identity",
+    "city": "Jakarta",
+    "tags": [
+      "IDENTITY",
+      "BLOCKCHAIN"
+    ],
+    "focus": "PRODUCT DESIGN",
+    "experience": "8+ YRS",
+    "linkedin": "https://www.linkedin.com/in/yahyaapristianto/",
+    "photo": "",
+    "bio": [
+      "Yahya is a Senior Product Designer at VIDA Digital Identity. Yahya was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "bayu-yanuargi",
+    "name": "Bayu Yanuargi",
+    "discipline": "PRODUCT",
+    "role": "GEO Product Management",
+    "company": "GRAB",
+    "city": "Jakarta",
+    "tags": [
+      "SUPER APP",
+      "MOBILITY",
+      "PAYMENTS"
+    ],
+    "focus": "GEO PM",
+    "experience": "10+ YRS",
+    "linkedin": "https://www.linkedin.com/in/bayu-yanuargi-35aab831/",
+    "photo": "",
+    "bio": [
+      "Bayu is a GEO Product Management at GRAB. Bayu was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "lukluk-santoso",
+    "name": "LukLuk Santoso",
+    "discipline": "PRODUCT",
+    "role": "Product Specialist/Expert",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "PRODUCT"
+    ],
+    "focus": "PRODUCT EXPERT",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "LukLuk works independently as a Product Specialist/Expert. LukLuk was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "iman-cinderamata",
+    "name": "Iman Cinderamata",
+    "discipline": "PRODUCT",
+    "role": "Head of Product",
+    "company": "INDICO by Telkomsel",
+    "city": "Jakarta",
+    "tags": [
+      "TELECOM",
+      "AI"
+    ],
+    "focus": "PRODUCT LEAD",
+    "experience": "10+ YRS",
+    "linkedin": "https://www.linkedin.com/in/imancinderamata",
+    "photo": "",
+    "bio": [
+      "Iman is a product leader who served as Head of Product at INDICO by Telkomsel and earlier as Head of Product at Tokopedia.",
+      "He was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "lhuqita-fazri",
+    "name": "Lhuqita Fazri",
+    "discipline": "EDUCATION",
+    "role": "Founder",
+    "company": "Rumah Coding Indonesia",
+    "city": "Jakarta",
+    "tags": [
+      "EDTECH",
+      "CODING"
+    ],
+    "focus": "CODING EDUCATOR",
+    "experience": "8+ YRS",
+    "linkedin": "https://www.linkedin.com/in/lhuqita-fazry/",
+    "photo": "",
+    "bio": [
+      "Lhuqita is Founder of Rumah Coding Indonesia. Lhuqita was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "hayi-nukman",
+    "name": "Hayi Nukman",
+    "discipline": "FOUNDER",
+    "role": "Owner",
+    "company": "Hayati.io",
+    "city": "Jakarta",
+    "tags": [
+      "HEALTH",
+      "TECH"
+    ],
+    "focus": "FOUNDER",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Hayi is Owner of Hayati.io. Hayi was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "raja-arif-hidayah-harahap",
+    "name": "Raja Arif Hidayah Harahap",
+    "discipline": "BUSINESS",
+    "role": "Customer Experience Professional",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "CX",
+      "FRAGRANCE"
+    ],
+    "focus": "CUSTOMER EXPERIENCE",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Raja works independently as a Customer Experience Professional. Raja was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "gunawan-wibisono",
+    "name": "Gunawan Wibisono",
+    "discipline": "FOUNDER",
+    "role": "Chief Product Officer, Co-Founder",
+    "company": "IOTA Kreatif Media",
+    "city": "Jakarta",
+    "tags": [
+      "MEDIA",
+      "CREATIVE"
+    ],
+    "focus": "FOUNDER & CPO",
+    "experience": "12+ YRS",
+    "linkedin": "https://www.linkedin.com/in/wibisonogunawan/",
+    "photo": "",
+    "bio": [
+      "Gunawan is Chief Product Officer, Co-Founder of IOTA Kreatif Media. Gunawan was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "priscilla-rasmana",
+    "name": "Priscilla Rasmana",
+    "discipline": "EDUCATION",
+    "role": "International Certified Result Coach",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "COACHING",
+      "LEADERSHIP"
+    ],
+    "focus": "EXECUTIVE COACH",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Priscilla works independently as an International Certified Result Coach. Priscilla was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "kiki-muchamad-rizki",
+    "name": "Kiki Muchamad Rizki",
+    "discipline": "PRODUCT",
+    "role": "Head of Delivery and Solution",
+    "company": "Kata.ai",
+    "city": "Jakarta",
+    "tags": [
+      "AI",
+      "CHATBOT"
+    ],
+    "focus": "DELIVERY LEAD",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Kiki is a Head of Delivery and Solution at Kata.ai. Kiki was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "smiley-kuntjoro",
+    "name": "Smiley Kuntjoro",
+    "discipline": "PRODUCT",
+    "role": "Chief Product Officer",
+    "company": "Shipper",
+    "city": "Jakarta",
+    "tags": [
+      "LOGISTICS",
+      "FINTECH"
+    ],
+    "focus": "CHIEF PRODUCT OFFICER",
+    "experience": "15+ YRS",
+    "linkedin": "https://www.linkedin.com/in/smileyk",
+    "photo": "",
+    "bio": [
+      "Smiley is Chief Product Officer at logistics platform Shipper, with 20+ years across product and engineering — including AVP Product at Tokopedia and VP Product at Gojek.",
+      "He was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "anton-rifco",
+    "name": "Anton Rifco",
+    "discipline": "PRODUCT",
+    "role": "VP Product",
+    "company": "AstraPay",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "PAYMENTS"
+    ],
+    "focus": "VP PRODUCT",
+    "experience": "12+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Anton is a VP Product at AstraPay. Anton was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "supatmo-cahyono",
+    "name": "Supatmo Cahyono",
+    "discipline": "DESIGN",
+    "role": "UX Designer Lead",
+    "company": "Kitabisa.com",
+    "city": "Jakarta",
+    "tags": [
+      "DESIGN",
+      "FUNDRAISING"
+    ],
+    "focus": "UX DESIGN LEAD",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Supatmo is an UX Designer Lead at Kitabisa.com. Supatmo was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "arif-rachman",
+    "name": "Arif Rachman",
+    "discipline": "BUSINESS",
+    "role": "Australia Scholarship Awardee",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "EDUCATION",
+      "SCHOLARSHIP"
+    ],
+    "focus": "SCHOLAR & PROFESSIONAL",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Arif works independently as an Australia Scholarship Awardee. Arif was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "jaka-arya-pradana",
+    "name": "Jaka Arya Pradana",
+    "discipline": "BUSINESS",
+    "role": "AI Consultant",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "AI",
+      "CONSULTING"
+    ],
+    "focus": "AI CONSULTANT",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Jaka works independently as an AI Consultant. Jaka was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "ade-putri-aulia-w",
+    "name": "Ade Putri Aulia W",
+    "discipline": "EDUCATION",
+    "role": "MBA Student",
+    "company": "Ritsumeikan Asia Pacific University",
+    "city": "Japan",
+    "tags": [
+      "EDUCATION",
+      "MBA"
+    ],
+    "focus": "MBA STUDENT",
+    "experience": "2+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Ade is a MBA Student at Ritsumeikan Asia Pacific University. Ade was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "ade-yahya-prasetyo",
+    "name": "Ade Yahya Prasetyo",
+    "discipline": "ENGINEERING",
+    "role": "Senior Software Engineer",
+    "company": "Jitera",
+    "city": "Jakarta",
+    "tags": [
+      "ENGINEERING",
+      "SAAS"
+    ],
+    "focus": "SOFTWARE ENGINEER",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Ade is a Senior Software Engineer at Jitera. Ade was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "borrys-hasian",
+    "name": "Borrys Hasian",
+    "discipline": "DESIGN",
+    "role": "Product Designer & Founder, ois.design",
+    "company": "ois.design",
+    "city": "Abu Dhabi",
+    "tags": [
+      "PRODUCT DESIGN",
+      "UX",
+      "DESIGN SPRINT"
+    ],
+    "focus": "PRODUCT DESIGN",
+    "experience": "8+ YRS",
+    "linkedin": "https://www.linkedin.com/in/borryshasian",
+    "photo": "",
+    "bio": [
+      "Borrys is a product designer and former engineer — the first Indonesian named a Google Expert in Product Design — who founded the design studios ois.design and Circle UX.",
+      "He was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "regnauld-ethan",
+    "name": "Regnauld Ethan",
+    "discipline": "ENGINEERING",
+    "role": "VP of Product Engineering",
+    "company": "NOICE",
+    "city": "Jakarta",
+    "tags": [
+      "ENGINEERING",
+      "FINTECH"
+    ],
+    "focus": "PRODUCT ENGINEERING VP",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Regnauld is a VP of Product Engineering at NOICE. Regnauld was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "hazmi-abdun-nazir",
+    "name": "Hazmi Abdun Nazir",
+    "discipline": "ENGINEERING",
+    "role": "Engineering Leader",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "ENGINEERING"
+    ],
+    "focus": "ENGINEERING LEAD",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Hazmi works independently as an Engineering Leader. Hazmi was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "muhammad-mamed",
+    "name": "Muhammad Mamed",
+    "discipline": "ENGINEERING",
+    "role": "Full Stack Developer",
+    "company": "Sophiie AI",
+    "city": "Jakarta",
+    "tags": [
+      "ENGINEERING",
+      "AI"
+    ],
+    "focus": "FULL STACK DEVELOPER",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Muhammad is a Full Stack Developer at Sophiie AI. Muhammad was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "richard-dharmadi",
+    "name": "Richard Dharmadi",
+    "discipline": "PRODUCT",
+    "role": "Head of Product",
+    "company": "Pinhome",
+    "city": "Jakarta",
+    "tags": [
+      "PROPTECH",
+      "REAL ESTATE"
+    ],
+    "focus": "PRODUCT LEAD",
+    "experience": "10+ YRS",
+    "linkedin": "https://www.linkedin.com/in/richard-dharmadi",
+    "photo": "",
+    "bio": [
+      "Richard leads product at proptech Pinhome and teaches product management at RevoU, with an ITB and University of Edinburgh background.",
+      "He was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "irvan-daniansyah",
+    "name": "Irvan Daniansyah",
+    "discipline": "BUSINESS",
+    "role": "SEO Manager",
+    "company": "Qualitest North America",
+    "city": "Jakarta",
+    "tags": [
+      "SEO",
+      "MARKETING"
+    ],
+    "focus": "SEO MANAGER",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Irvan is a SEO Manager at Qualitest North America. Irvan was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "arryangga-aliev",
+    "name": "Arryangga Aliev",
+    "discipline": "BUSINESS",
+    "role": "Remote Work Specialist",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "REMOTE",
+      "WORK CULTURE"
+    ],
+    "focus": "REMOTE WORK SPECIALIST",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Arryangga works independently as a Remote Work Specialist. Arryangga was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "big-zaman",
+    "name": "Big Zaman",
+    "discipline": "FOUNDER",
+    "role": "CEO & Co-founder",
+    "company": "Badr Interactive",
+    "city": "Jakarta",
+    "tags": [
+      "GAMES",
+      "INTERACTIVE"
+    ],
+    "focus": "FOUNDER & CEO",
+    "experience": "12+ YRS",
+    "linkedin": "https://www.linkedin.com/in/bigzaman",
+    "photo": "",
+    "bio": [
+      "Big co-founded Badr Interactive in 2012 and leads it as CEO, building custom software for organisations and winning Tech in Asia's Startup Arena in 2014.",
+      "He also co-founded the Founderplus accelerator and was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "nanang-chalid",
+    "name": "Nanang Chalid",
+    "discipline": "BUSINESS",
+    "role": "Head of HR Business Partner",
+    "company": "ParagonCorp",
+    "city": "Jakarta",
+    "tags": [
+      "HR",
+      "CORPORATE"
+    ],
+    "focus": "HR BUSINESS PARTNER",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Nanang is a Head of HR Business Partner at ParagonCorp. Nanang was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "erdi-pratama",
+    "name": "Erdi Pratama",
+    "discipline": "EDUCATION",
+    "role": "MBA Candidate",
+    "company": "Northeastern University",
+    "city": "USA",
+    "tags": [
+      "EDUCATION",
+      "MBA"
+    ],
+    "focus": "MBA STUDENT",
+    "experience": "4+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Erdi is a MBA Candidate at Northeastern University. Erdi was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "fahmy-habibullah",
+    "name": "Fahmy Habibullah",
+    "discipline": "DESIGN",
+    "role": "UX Design Leader",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "DESIGN",
+      "UX"
+    ],
+    "focus": "UX DESIGN LEADER",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Fahmy works independently as an UX Design Leader. Fahmy was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "ivan-nashara",
+    "name": "Ivan Nashara H.",
+    "discipline": "PRODUCT",
+    "role": "Senior Manager",
+    "company": "Ruangguru",
+    "city": "Jakarta",
+    "tags": [
+      "EDTECH",
+      "MARKETPLACE"
+    ],
+    "focus": "SENIOR MANAGER",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Ivan is a Senior Manager at Ruangguru. Ivan was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "nuzli-hernawan",
+    "name": "Nuzli Hernawan",
+    "discipline": "ENGINEERING",
+    "role": "VP of Infra",
+    "company": "Telkomsigma",
+    "city": "Jakarta",
+    "tags": [
+      "INFRASTRUCTURE",
+      "TELECOM"
+    ],
+    "focus": "INFRA VP",
+    "experience": "12+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Nuzli is a VP of Infra at Telkomsigma. Nuzli was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "martyn-terpilowski",
+    "name": "Martyn Terpilowski",
+    "discipline": "FOUNDER",
+    "role": "CEO",
+    "company": "Bhumi Varta Technology",
+    "city": "Jakarta",
+    "tags": [
+      "AGRICULTURE",
+      "TECH"
+    ],
+    "focus": "FOUNDER & CEO",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Martyn is CEO of Bhumi Varta Technology. Martyn was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "rudi-rahadian",
+    "name": "Rudi Rahadian",
+    "discipline": "EDUCATION",
+    "role": "OKR Coach / Agile Coach",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "COACHING",
+      "AGILE"
+    ],
+    "focus": "AGILE COACH",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Rudi works independently as an OKR Coach / Agile Coach. Rudi was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "nina-megayanti",
+    "name": "Nina Megayanti",
+    "discipline": "EDUCATION",
+    "role": "Coach",
+    "company": "Komunitas Move On Game On",
+    "city": "Jakarta",
+    "tags": [
+      "COACHING",
+      "COMMUNITY"
+    ],
+    "focus": "LIFE COACH",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Nina is a Coach at Komunitas Move On Game On. Nina was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "amirul-ihsan",
+    "name": "Amirul Ihsan",
+    "discipline": "ENGINEERING",
+    "role": "Software Developer / Content Creator",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "ENGINEERING",
+      "CONTENT"
+    ],
+    "focus": "DEVELOPER & CREATOR",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Amirul works independently as a Software Developer / Content Creator. Amirul was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "ariaseta-setia-alam",
+    "name": "Ariaseta Setia Alam",
+    "discipline": "PRODUCT",
+    "role": "Hospitality Tech & AI-Powered System Builder",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "HOSPITALITY",
+      "AI"
+    ],
+    "focus": "PRODUCT BUILDER",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Ariaseta works independently as a Hospitality Tech & AI-Powered System Builder. Ariaseta was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "jeremy-limman",
+    "name": "Jeremy Limman",
+    "discipline": "FOUNDER",
+    "role": "Co-Founder & CPO",
+    "company": "Paper.id",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "PAYMENTS"
+    ],
+    "focus": "FOUNDER & CPO",
+    "experience": "8+ YRS",
+    "linkedin": "https://www.linkedin.com/in/jeremylimman",
+    "photo": "",
+    "bio": [
+      "Jeremy co-founded Paper.id in 2016 and serves as its CPO, building B2B invoicing and payments used by hundreds of thousands of Indonesian SMEs.",
+      "A USC graduate, he was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "muhammad-andhitya",
+    "name": "Muhammad Andhitya",
+    "discipline": "PRODUCT",
+    "role": "Product Manager",
+    "company": "Tokopedia",
+    "city": "Jakarta",
+    "tags": [
+      "MARKETPLACE",
+      "E-COMMERCE"
+    ],
+    "focus": "PRODUCT MANAGER",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Muhammad is a Product Manager at Tokopedia. Muhammad was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "farhan-makarim",
+    "name": "Farhan Makarim",
+    "discipline": "PRODUCT",
+    "role": "Senior Product Manager",
+    "company": "Flip",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "PAYMENTS"
+    ],
+    "focus": "SENIOR PM",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Farhan is a Senior Product Manager at Flip. Farhan was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "brian-lee",
+    "name": "Brian Lee",
+    "discipline": "FOUNDER",
+    "role": "Co-founder & CEO",
+    "company": "Sokratech",
+    "city": "Jakarta",
+    "tags": [
+      "EDTECH",
+      "AI"
+    ],
+    "focus": "FOUNDER & CEO",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Brian is Co-founder & CEO of Sokratech. Brian was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "aditya-amin-refandi",
+    "name": "Aditya Amin Refandi",
+    "discipline": "ENGINEERING",
+    "role": "Engineering Manager",
+    "company": "Flip",
+    "city": "Jakarta",
+    "tags": [
+      "ENGINEERING",
+      "FINTECH"
+    ],
+    "focus": "ENGINEERING MANAGER",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Aditya is an Engineering Manager at Flip. Aditya was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "estu-mughni",
+    "name": "Estu Mughni",
+    "discipline": "ENGINEERING",
+    "role": "Engineering Manager",
+    "company": "Flip",
+    "city": "Jakarta",
+    "tags": [
+      "ENGINEERING",
+      "FINTECH"
+    ],
+    "focus": "ENGINEERING MANAGER",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Estu is an Engineering Manager at Flip. Estu was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "rifqi-adhyasa",
+    "name": "Rifqi Adhyasa",
+    "discipline": "BUSINESS",
+    "role": "Global Employer Branding Manager",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "HR",
+      "BRANDING"
+    ],
+    "focus": "EMPLOYER BRANDING",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Rifqi works independently as a Global Employer Branding Manager. Rifqi was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "adam-amrullah",
+    "name": "Adam Amrullah",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "Marketing Treats",
+    "city": "Jakarta",
+    "tags": [
+      "MARKETING",
+      "EDUCATION"
+    ],
+    "focus": "FOUNDER",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Adam is Founder of Marketing Treats. Adam was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "esa-dwiyan",
+    "name": "Esa Dwiyan",
+    "discipline": "BUSINESS",
+    "role": "Business Development APAC",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "BD",
+      "APAC"
+    ],
+    "focus": "BUSINESS DEVELOPMENT",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Esa works independently as a Business Development APAC. Esa was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "wisnu-manupraba",
+    "name": "Wisnu Manupraba",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "Javan",
+    "city": "Jakarta",
+    "tags": [
+      "COFFEE",
+      "COMMERCE"
+    ],
+    "focus": "FOUNDER",
+    "experience": "6+ YRS",
+    "linkedin": "https://www.linkedin.com/in/wisnu-manupraba-a61199b/",
+    "photo": "",
+    "bio": [
+      "Wisnu is Founder of Javan. Wisnu was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "thomas-wiradikusuma",
+    "name": "Thomas Wiradikusuma",
+    "discipline": "ENGINEERING",
+    "role": "Chief Technology Officer",
+    "company": "Briix Properties",
+    "city": "Jakarta",
+    "tags": [
+      "PROPTECH",
+      "ENGINEERING"
+    ],
+    "focus": "CTO",
+    "experience": "12+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Thomas is Chief Technology Officer of Briix Properties. Thomas was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "kurnia-adhiwibowo",
+    "name": "Kurnia Adhiwibowo",
+    "discipline": "BUSINESS",
+    "role": "Prakom Ahli Pertama Pusdiklat BPS",
+    "company": "BPS",
+    "city": "Jakarta",
+    "tags": [
+      "GOVERNMENT",
+      "DATA"
+    ],
+    "focus": "DATA SPECIALIST",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Kurnia is a Prakom Ahli Pertama Pusdiklat BPS at BPS. Kurnia was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "listiarso-wastuargo",
+    "name": "Listiarso Wastuargo",
+    "discipline": "BUSINESS",
+    "role": "Ex Cheerleader",
+    "company": "Meta",
+    "city": "Jakarta",
+    "tags": [
+      "TECH",
+      "CULTURE"
+    ],
+    "focus": "PROFESSIONAL",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Listiarso is an Ex Cheerleader at Meta. Listiarso was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "sanny-gadaffi",
+    "name": "Sanny Gadaffi",
+    "discipline": "PRODUCT",
+    "role": "Chief Of Staff",
+    "company": "Brick",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "OPERATIONS"
+    ],
+    "focus": "CHIEF OF STAFF",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Sanny is Chief Of Staff of Brick. Sanny was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "bagus-dewantara",
+    "name": "Bagus Dewantara",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "AturToko.com",
+    "city": "Jakarta",
+    "tags": [
+      "MARKETPLACE",
+      "E-COMMERCE"
+    ],
+    "focus": "FOUNDER",
+    "experience": "8+ YRS",
+    "linkedin": "https://www.linkedin.com/in/bagus-dewantara-042875193/",
+    "photo": "",
+    "bio": [
+      "Bagus is Founder of AturToko.com. Bagus was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "ruby-thalib",
+    "name": "Ruby Thalib",
+    "discipline": "FOUNDER",
+    "role": "CEO",
+    "company": "Ruby Thalib AI & Data Consultant",
+    "city": "Jakarta",
+    "tags": [
+      "AI",
+      "DATA",
+      "CONSULTING"
+    ],
+    "focus": "AI CONSULTANT",
+    "experience": "10+ YRS",
+    "linkedin": "https://www.linkedin.com/in/ruby-abdullah-2134a4176/",
+    "photo": "",
+    "bio": [
+      "Ruby is CEO of Ruby Thalib AI & Data Consultant. Ruby was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "dea-saka-kurnia",
+    "name": "Dea Saka Kurnia P.",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "Asosiasi Aset Kripto Syariah",
+    "city": "Jakarta",
+    "tags": [
+      "CRYPTO",
+      "BLOCKCHAIN"
+    ],
+    "focus": "FOUNDER",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Dea is Founder of Asosiasi Aset Kripto Syariah. Dea was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "rendy-maulana-akbar",
+    "name": "Rendy Maulana Akbar",
+    "discipline": "FOUNDER",
+    "role": "CEO",
+    "company": "Qwords",
+    "city": "Jakarta",
+    "tags": [
+      "HOSTING",
+      "TECHNOLOGY"
+    ],
+    "focus": "FOUNDER & CEO",
+    "experience": "12+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Rendy is CEO of Qwords. Rendy was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "rama-rizana",
+    "name": "Rama Rizana, M.Sc",
+    "discipline": "BUSINESS",
+    "role": "Wakil Sekretaris Jenderal",
+    "company": "KIPMI",
+    "city": "Jakarta",
+    "tags": [
+      "ASSOCIATION",
+      "INDUSTRY"
+    ],
+    "focus": "ASSOCIATION LEADER",
+    "experience": "12+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Rama is a Wakil Sekretaris Jenderal at KIPMI. Rama was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "yoyok-dwi-parindra",
+    "name": "Yoyok Dwi Parindra",
+    "discipline": "ENGINEERING",
+    "role": "4G/5G Solutions Architect",
+    "company": "Qualcomm",
+    "city": "Jakarta",
+    "tags": [
+      "TELECOMMUNICATIONS",
+      "INFRASTRUCTURE"
+    ],
+    "focus": "TELECOM ARCHITECT",
+    "experience": "12+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Yoyok is a 4G/5G Solutions Architect at Qualcomm. Yoyok was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "ario-adimas",
+    "name": "Ario Adimas",
+    "discipline": "PRODUCT",
+    "role": "Lead - Digital Product",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "PRODUCT",
+      "DIGITAL"
+    ],
+    "focus": "PRODUCT LEAD",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Ario works independently as a Lead - Digital Product. Ario was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "hajon-mahdy",
+    "name": "Hajon Mahdy",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "AlQuran.ai",
+    "city": "Jakarta",
+    "tags": [
+      "AI",
+      "ISLAMIC TECH"
+    ],
+    "focus": "FOUNDER",
+    "experience": "4+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Hajon is Founder of AlQuran.ai. Hajon was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "ario-limin",
+    "name": "Ario Limin",
+    "discipline": "FOUNDER",
+    "role": "Co-Founder",
+    "company": "Hustink",
+    "city": "Jakarta",
+    "tags": [
+      "CREATOR ECONOMY"
+    ],
+    "focus": "FOUNDER",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Ario is Co-Founder of Hustink. Ario was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "riffa-sancati",
+    "name": "Riffa Sancati",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "thelenstory.com",
+    "city": "Jakarta",
+    "tags": [
+      "E-COMMERCE",
+      "FASHION"
+    ],
+    "focus": "FOUNDER",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Riffa is Founder of thelenstory.com. Riffa was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "arif-arinto",
+    "name": "Arif Arinto",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "teknologikartu.com",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "CARDS"
+    ],
+    "focus": "FOUNDER",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Arif is Founder of teknologikartu.com. Arif was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "aditya-chintawar",
+    "name": "Aditya Chintawar",
+    "discipline": "PRODUCT",
+    "role": "CPTO",
+    "company": "KoinWorks",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "LENDING"
+    ],
+    "focus": "CHIEF PRODUCT & TECH",
+    "experience": "8+ YRS",
+    "linkedin": "https://www.linkedin.com/in/adityachintawar",
+    "photo": "",
+    "bio": [
+      "Aditya is Chief Product & Technology Officer at KoinWorks, an Indonesian fintech serving SMEs, with prior experience at Deloitte and Zoomcar.",
+      "He was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "bhayu-ravelli-arsyad",
+    "name": "Bhayu Ravelli Arsyad",
+    "discipline": "BUSINESS",
+    "role": "Head of Market Research",
+    "company": "MAP Group",
+    "city": "Jakarta",
+    "tags": [
+      "RESEARCH",
+      "MARKET"
+    ],
+    "focus": "MARKET RESEARCH",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Bhayu is a Head of Market Research at MAP Group. Bhayu was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "pandu-padmanegara",
+    "name": "Pandu Padmanegara",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "Communicaption",
+    "city": "Jakarta",
+    "tags": [
+      "COMMUNICATION",
+      "ACCESSIBILITY"
+    ],
+    "focus": "FOUNDER",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Pandu is Founder of Communicaption. Pandu was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "ryan-gondokusumo",
+    "name": "Ryan Gondokusumo",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "Sribu",
+    "city": "Jakarta",
+    "tags": [
+      "FREELANCE",
+      "MARKETPLACE"
+    ],
+    "focus": "FOUNDER",
+    "experience": "12+ YRS",
+    "linkedin": "https://www.linkedin.com/in/ryangondokusumo",
+    "photo": "",
+    "bio": [
+      "Ryan founded Sribu and Sribulancer in 2011, building one of Indonesia's largest freelancing and creative-services marketplaces.",
+      "A Purdue engineering graduate, he was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "nanang-hernanto",
+    "name": "Nanang Hernanto",
+    "discipline": "EDUCATION",
+    "role": "Associate Trainer with 25+ YoE",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "TRAINING",
+      "EDUCATION"
+    ],
+    "focus": "TRAINER",
+    "experience": "25+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Nanang works independently as an Associate Trainer with 25+ YoE. Nanang was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "rangga-wiseno",
+    "name": "Rangga Wiseno",
+    "discipline": "PRODUCT",
+    "role": "CPO",
+    "company": "DANA Indonesia",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "PAYMENTS"
+    ],
+    "focus": "CHIEF PRODUCT OFFICER",
+    "experience": "12+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Rangga has served as Chief of Product at DANA, one of Indonesia's largest digital wallets, leading a large product team, and more recently as Chief Business Officer at ALTO Network.",
+      "He was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "agus-mulyono",
+    "name": "Agus Mulyono",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "Kini",
+    "city": "Jakarta",
+    "tags": [
+      "HEALTH",
+      "TECH"
+    ],
+    "focus": "FOUNDER",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Agus is Founder of Kini. Agus was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "budiman-indrajaya",
+    "name": "Budiman Indrajaya",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "Urun-RI",
+    "city": "Jakarta",
+    "tags": [
+      "INVESTMENT",
+      "PLATFORM"
+    ],
+    "focus": "FOUNDER",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Budiman is Founder of Urun-RI. Budiman was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "natali-ardianto",
+    "name": "Natali Ardianto",
+    "discipline": "FOUNDER",
+    "role": "Co-founder & CEO, Lifepack.id",
+    "company": "Lifepack.id (ex-Tiket.com)",
+    "city": "Jakarta",
+    "tags": [
+      "TRAVEL",
+      "MARKETPLACE"
+    ],
+    "focus": "FOUNDER",
+    "experience": "12+ YRS",
+    "linkedin": "https://www.linkedin.com/in/nataliardianto",
+    "photo": "",
+    "bio": [
+      "Natali is a technical co-founder best known for building Tiket.com as its CTO — a journey to unicorn scale and a public listing — and now co-founds and leads the healthtech startup Lifepack.id.",
+      "He was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "arnold-egg",
+    "name": "Arnold Egg",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "OLX (was TokoBagus)",
+    "city": "Jakarta",
+    "tags": [
+      "MARKETPLACE",
+      "E-COMMERCE"
+    ],
+    "focus": "FOUNDER",
+    "experience": "15+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Arnold founded Tokobagus in 2005 — later rebranded to OLX Indonesia — pioneering online classifieds in the country, and has since started new ventures including Toco.",
+      "He was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "dima-djani",
+    "name": "Dima Djani",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "Hijra Group",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "MARKETPLACE"
+    ],
+    "focus": "FOUNDER",
+    "experience": "12+ YRS",
+    "linkedin": "https://www.linkedin.com/in/dimadjani",
+    "photo": "",
+    "bio": [
+      "Dima is the founder and Group CEO of Hijra (formerly ALAMI), Indonesia's sharia-based fintech and digital bank, which he started in 2018 after a finance career at Citi and Société Générale.",
+      "He was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "amrullah-tahad",
+    "name": "Amrullah Tahad",
+    "discipline": "BUSINESS",
+    "role": "Fractional CHRO, ex-Hijra",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "HR",
+      "EXECUTIVE"
+    ],
+    "focus": "FRACTIONAL CHRO",
+    "experience": "12+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Amrullah works independently as a Fractional CHRO, ex-Hijra. Amrullah was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "fadel-muhammad",
+    "name": "Fadel Muhammad",
+    "discipline": "PRODUCT",
+    "role": "Product Manager",
+    "company": "Flip",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "PAYMENTS"
+    ],
+    "focus": "PRODUCT MANAGER",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Fadel is a Product Manager at Flip. Fadel was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "winahyu-anggoro",
+    "name": "Winahyu Anggoro",
+    "discipline": "PRODUCT",
+    "role": "AVP Product",
+    "company": "Tokopedia",
+    "city": "Jakarta",
+    "tags": [
+      "MARKETPLACE",
+      "E-COMMERCE"
+    ],
+    "focus": "AVP PRODUCT",
+    "experience": "10+ YRS",
+    "linkedin": "https://www.linkedin.com/in/winahyuanggoro",
+    "photo": "",
+    "bio": [
+      "Winahyu is an Associate VP of Product at Tokopedia, part of the team behind Indonesia's largest marketplace.",
+      "A University of Indonesia computer-science graduate, he was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "muhammad-ismail",
+    "name": "Muhammad Ismail",
+    "discipline": "FOUNDER",
+    "role": "CEO",
+    "company": "Zahir Internasional",
+    "city": "Jakarta",
+    "tags": [
+      "ACCOUNTING",
+      "SAAS"
+    ],
+    "focus": "FOUNDER & CEO",
+    "experience": "15+ YRS",
+    "linkedin": "https://www.linkedin.com/in/muhis/",
+    "photo": "",
+    "bio": [
+      "Muhammad is CEO of Zahir Internasional. Muhammad was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "ario-wicaksono",
+    "name": "Ario Wicaksono",
+    "discipline": "BUSINESS",
+    "role": "Head Of BOD MTBS",
+    "company": "PT. Media Telekomunikasi Mandiri",
+    "city": "Jakarta",
+    "tags": [
+      "TELECOM",
+      "MEDIA"
+    ],
+    "focus": "BOARD HEAD",
+    "experience": "12+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Ario is a Head Of BOD MTBS at PT. Media Telekomunikasi Mandiri. Ario was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "krisna-parahita",
+    "name": "Krisna Parahita",
+    "discipline": "PRODUCT",
+    "role": "VP of Product",
+    "company": "LinkAja",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "PAYMENTS"
+    ],
+    "focus": "VP PRODUCT",
+    "experience": "10+ YRS",
+    "linkedin": "https://www.linkedin.com/in/krisna-parahita",
+    "photo": "",
+    "bio": [
+      "Krisna is VP of Product & Analytics at LinkAja, Indonesia's state-backed e-wallet, with earlier roles spanning the World Bank, TaniFund and idEA.",
+      "He was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "m-ilman-akbar",
+    "name": "M. Ilman Akbar",
+    "discipline": "FOUNDER",
+    "role": "Founder",
+    "company": "DailySEO",
+    "city": "Jakarta",
+    "tags": [
+      "SEO",
+      "MARKETING"
+    ],
+    "focus": "FOUNDER",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "M. is Founder of DailySEO. M. was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "aldy-pranata",
+    "name": "Aldy Pranata",
+    "discipline": "PRODUCT",
+    "role": "Product Lead (VP)",
+    "company": "Nobi",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "INSURANCE"
+    ],
+    "focus": "VP PRODUCT",
+    "experience": "10+ YRS",
+    "linkedin": "https://www.linkedin.com/in/aldy-pranata-69367798",
+    "photo": "",
+    "bio": [
+      "Aldy is a product lead in the crypto space — including VP-level product at NOBI — and an ADPList mentor with around a decade in tech startups across product, GTM and UX.",
+      "He was a guest on the BroBri podcast."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "arnold-darius",
+    "name": "Arnold Darius",
+    "discipline": "PRODUCT",
+    "role": "Senior Product Lead",
+    "company": "BliBli",
+    "city": "Jakarta",
+    "tags": [
+      "E-COMMERCE",
+      "MARKETPLACE"
+    ],
+    "focus": "SENIOR PM",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Arnold is a Senior Product Lead at BliBli. Arnold was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "gatot-wicaksono",
+    "name": "Gatot Wicaksono",
+    "discipline": "FOUNDER",
+    "role": "CEO & Head of Product",
+    "company": "Jarivis",
+    "city": "Jakarta",
+    "tags": [
+      "AI",
+      "TECHNOLOGY"
+    ],
+    "focus": "FOUNDER & CEO",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Gatot is CEO & Head of Product of Jarivis. Gatot was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "andriy-hadinata",
+    "name": "Andriy Hadinata",
+    "discipline": "EDUCATION",
+    "role": "Podcaster",
+    "company": "Ecommurz & Talk 2 Talk",
+    "city": "Jakarta",
+    "tags": [
+      "PODCAST",
+      "EDUCATION"
+    ],
+    "focus": "PODCASTER",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Andriy is a Podcaster at Ecommurz & Talk 2 Talk. Andriy was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "mufahim-abqary",
+    "name": "Mufahim Abqary",
+    "discipline": "BUSINESS",
+    "role": "ex Headhunter",
+    "company": "Independent",
+    "city": "Jakarta",
+    "tags": [
+      "HR",
+      "RECRUITMENT"
+    ],
+    "focus": "RECRUITING EXPERT",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Mufahim works independently as an ex Headhunter. Mufahim was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "ricky-hilmi-sudrajad",
+    "name": "Ricky Hilmi Sudrajad",
+    "discipline": "PRODUCT",
+    "role": "Product Manager",
+    "company": "DOKU",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "PAYMENTS"
+    ],
+    "focus": "PRODUCT MANAGER",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Ricky is a Product Manager at DOKU. Ricky was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "yosua-ida-bagus",
+    "name": "Yosua Ida Bagus K.",
+    "discipline": "PRODUCT",
+    "role": "Senior PM",
+    "company": "Tokopedia",
+    "city": "Jakarta",
+    "tags": [
+      "MARKETPLACE",
+      "E-COMMERCE"
+    ],
+    "focus": "SENIOR PM",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Yosua is a Senior PM at Tokopedia. Yosua was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "andika-amri",
+    "name": "Andika Amri",
+    "discipline": "PRODUCT",
+    "role": "Senior PM",
+    "company": "eFishery",
+    "city": "Jakarta",
+    "tags": [
+      "AGRITECH",
+      "MARKETPLACE"
+    ],
+    "focus": "SENIOR PM",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Andika is a Senior PM at eFishery. Andika was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "komang-a",
+    "name": "Komang A.",
+    "discipline": "PRODUCT",
+    "role": "PM",
+    "company": "Kitabisa",
+    "city": "Jakarta",
+    "tags": [
+      "FUNDRAISING",
+      "MARKETPLACE"
+    ],
+    "focus": "PRODUCT MANAGER",
+    "experience": "4+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Komang is a PM at Kitabisa. Komang was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "marthino-tri-yuda",
+    "name": "Marthino Tri Yuda",
+    "discipline": "PRODUCT",
+    "role": "Product (ex-Tokopedia)",
+    "company": "Fasset",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "INVESTMENT"
+    ],
+    "focus": "PRODUCT MANAGER",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Marthino is a Product (ex-Tokopedia) at Fasset. Marthino was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "denny-yusuf",
+    "name": "Denny Yusuf",
+    "discipline": "PRODUCT",
+    "role": "Product Lead",
+    "company": "KitaBisa",
+    "city": "Jakarta",
+    "tags": [
+      "FUNDRAISING",
+      "MARKETPLACE"
+    ],
+    "focus": "PRODUCT LEAD",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Denny is a Product Lead at KitaBisa. Denny was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "vivi-aryanti",
+    "name": "Vivi Aryanti",
+    "discipline": "PRODUCT",
+    "role": "PM",
+    "company": "Meratus Group",
+    "city": "Jakarta",
+    "tags": [
+      "LOGISTICS",
+      "MARKETPLACE"
+    ],
+    "focus": "PRODUCT MANAGER",
+    "experience": "4+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Vivi is a PM at Meratus Group. Vivi was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "wulan-maulida",
+    "name": "Wulan Maulida",
+    "discipline": "EDUCATION",
+    "role": "PM Mentor",
+    "company": "Rakamin",
+    "city": "Jakarta",
+    "tags": [
+      "EDUCATION",
+      "MENTORING"
+    ],
+    "focus": "PM MENTOR",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Wulan is a PM Mentor at Rakamin. Wulan was a guest on the BroBri podcast, where Brian Arfi interviews the people building Indonesia's products."
+    ],
+    "claimed": false
+  }
+]

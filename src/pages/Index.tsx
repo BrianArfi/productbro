@@ -5,12 +5,13 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SearchBar from "@/components/SearchBar";
 import FilterChips from "@/components/FilterChips";
-import PMCard from "@/components/PMCard";
+import BuilderCard from "@/components/BuilderCard";
 import { Button } from "@/components/ui/button";
-import { filterPMs, pms, siteConfig, type SortKey } from "@/lib/pm";
+import { builders, filterBuilders, siteConfig, type Discipline, type SortKey } from "@/lib/builders";
 
 const Index = () => {
   const [query, setQuery] = useState("");
+  const [discipline, setDiscipline] = useState<Discipline | null>(null);
   const [tags, setTags] = useState<string[]>([]);
   const [city, setCity] = useState<string | null>(null);
   const [sort, setSort] = useState<SortKey>("name");
@@ -19,14 +20,18 @@ const Index = () => {
     document.title = `${siteConfig.name} — ${siteConfig.tagline}`;
   }, []);
 
-  const results = useMemo(() => filterPMs({ query, tags, city, sort }), [query, tags, city, sort]);
+  const results = useMemo(
+    () => filterBuilders({ query, discipline, tags, city, sort }),
+    [query, discipline, tags, city, sort]
+  );
 
   const toggleTag = (tag: string) =>
     setTags((prev) => (prev.includes(tag) ? prev.filter((t) => t !== tag) : [...prev, tag]));
 
-  const hasFilters = query !== "" || tags.length > 0 || city !== null;
+  const hasFilters = query !== "" || discipline !== null || tags.length > 0 || city !== null;
   const clearFilters = () => {
     setQuery("");
+    setDiscipline(null);
     setTags([]);
     setCity(null);
   };
@@ -40,7 +45,7 @@ const Index = () => {
           <p className="container py-2 text-center font-mono text-[11px] uppercase tracking-wider text-primary">
             ⚠ Sample profiles below — the real index is being curated.{" "}
             <a href={siteConfig.tallyListUrl} target="_blank" rel="noreferrer" className="underline">
-              Nominate a PM →
+              Nominate someone →
             </a>
           </p>
         </div>
@@ -50,20 +55,23 @@ const Index = () => {
         {/* Hero */}
         <section className="container pb-10 pt-14 text-center sm:pt-20">
           <p className="micro-label !text-primary">
-            INDEX · {pms.length} PRODUCT PEOPLE · INDONESIA
+            INDEX · {builders.length} PRODUCT BUILDERS · INDONESIA
           </p>
           <h1 className="mx-auto mt-4 max-w-3xl text-4xl font-bold tracking-tight sm:text-6xl">
-            Indonesia's product managers, <span className="text-primary">indexed.</span>
+            The people building Indonesia's products, <span className="text-primary">indexed.</span>
           </h1>
           <p className="mx-auto mt-5 max-w-xl text-muted-foreground sm:text-lg">
-            A curated, claimable index of the people building Indonesia's products. Browse by
-            specialty and city, connect on LinkedIn.
+            A curated, claimable index of Indonesia's product builders — PMs, engineers, designers,
+            dealmakers, educators, and founders, seeded from guests of the BroBri podcast. Browse by
+            discipline and city, connect on LinkedIn.
           </p>
           <div className="mx-auto mt-9 max-w-2xl">
             <SearchBar value={query} onChange={setQuery} />
           </div>
           <div className="mt-6">
             <FilterChips
+              discipline={discipline}
+              onDiscipline={setDiscipline}
               tags={tags}
               onToggleTag={toggleTag}
               city={city}
@@ -78,7 +86,7 @@ const Index = () => {
         <section className="container pb-20">
           <div className="mb-4 flex items-center justify-between">
             <p className="micro-label">
-              {results.length} {results.length === 1 ? "profile" : "profiles"}
+              {results.length} {results.length === 1 ? "builder" : "builders"}
             </p>
             {hasFilters && (
               <button onClick={clearFilters} className="micro-label transition-colors hover:text-primary">
@@ -90,8 +98,8 @@ const Index = () => {
           {results.length > 0 ? (
             <div className="grid grid-cols-2 gap-3 sm:gap-5 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
               <AnimatePresence mode="popLayout">
-                {results.map((pm, i) => (
-                  <PMCard key={pm.slug} pm={pm} index={i} />
+                {results.map((builder, i) => (
+                  <BuilderCard key={builder.slug} builder={builder} index={i} />
                 ))}
               </AnimatePresence>
             </div>
@@ -99,7 +107,7 @@ const Index = () => {
             <div className="rounded-xl border border-dashed py-20 text-center">
               <p className="text-lg font-medium">No one matches that — yet.</p>
               <p className="mt-2 text-sm text-muted-foreground">
-                Know a great PM who should be here?
+                Know a builder who should be here?
               </p>
               <div className="mt-6 flex justify-center gap-3">
                 <Button variant="outline" onClick={clearFilters}>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { siteConfig } from "@/lib/pm";
+import { siteConfig } from "@/lib/builders";
 
 const Header = () => (
   <header className="sticky top-0 z-40 border-b border-border/60 bg-background/80 backdrop-blur">

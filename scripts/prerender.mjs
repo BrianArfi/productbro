@@ -18,7 +18,16 @@ import path from "node:path";
 
 const DIST = path.resolve("dist");
 const site = JSON.parse(readFileSync("src/data/site.json", "utf8"));
-const pms = JSON.parse(readFileSync("src/data/pms.json", "utf8"));
+const builders = JSON.parse(readFileSync("src/data/builders.json", "utf8"));
+
+const DISCIPLINE_LABEL = {
+  PRODUCT: "Product",
+  ENGINEERING: "Engineering",
+  DESIGN: "Design",
+  BUSINESS: "Business & Deals",
+  EDUCATION: "Education",
+  FOUNDER: "Founder",
+};
 
 if (!existsSync(path.join(DIST, "index.html"))) {
   console.error("[prerender] dist/index.html not found — run `vite build` first.");
@@ -83,10 +92,10 @@ function writeRoute(route, html) {
 const defaultImage = absUrl("/og-default.png");
 
 /* ---------------------------------------------------------------- home */
-const listItems = pms
+const listItems = builders
   .map(
-    (p, i) =>
-      `        <li><a href="/s/${p.slug}">${esc(p.name)}</a> — ${esc(p.role)} at ${esc(p.company)}, ${esc(p.city)}</li>`
+    (b) =>
+      `        <li><a href="/s/${b.slug}">${esc(b.name)}</a> — ${esc(b.role)} at ${esc(b.company)}, ${esc(b.city)}</li>`
   )
   .join("\n");
 
@@ -116,12 +125,12 @@ const homeHtml = renderPage({
       "@context": "https://schema.org",
       "@type": "ItemList",
       name: `${site.name} — ${site.tagline}`,
-      numberOfItems: pms.length,
-      itemListElement: pms.map((p, i) => ({
+      numberOfItems: builders.length,
+      itemListElement: builders.map((b, i) => ({
         "@type": "ListItem",
         position: i + 1,
-        name: p.name,
-        url: `${site.url}/s/${p.slug}`,
+        name: b.name,
+        url: `${site.url}/s/${b.slug}`,
       })),
     },
   ],
@@ -142,7 +151,7 @@ writeFileSync(path.join(DIST, "index.html"), homeHtml);
 /* --------------------------------------------------------------- about */
 writeRoute("about", renderPage({
   title: `About | ${site.name}`,
-  description: `How ${site.name} curates Indonesia's product management talent, how to claim your profile, and how to request updates or removal.`,
+  description: `How ${site.name} curates the people building Indonesia's products, how to claim your profile, and how to request updates or removal.`,
   url: site.url + "/about",
   image: defaultImage,
   noscript: `    <noscript>
@@ -156,49 +165,50 @@ writeRoute("about", renderPage({
 }));
 
 /* ------------------------------------------------------------ profiles */
-for (const p of pms) {
-  const url = `${site.url}/s/${p.slug}`;
-  const description = truncate(p.bio?.[0] ?? `${p.name} is ${p.role} at ${p.company}, based in ${p.city}, Indonesia.`);
-  const image = p.photo ? absUrl(p.photo) : defaultImage;
+for (const b of builders) {
+  const url = `${site.url}/s/${b.slug}`;
+  const description = truncate(b.bio?.[0] ?? `${b.name} is ${b.role} at ${b.company}, based in ${b.city}, Indonesia.`);
+  const image = b.photo ? absUrl(b.photo) : defaultImage;
+  const disciplineLabel = DISCIPLINE_LABEL[b.discipline] ?? b.discipline;
 
-  const showcaseHtml = p.showcase?.length
+  const showcaseHtml = b.showcase?.length
     ? `        <h2>Showcase</h2>
         <ul>
-${p.showcase.map((s) => `          <li><strong>${esc(s.title)}</strong> — ${esc(s.description)}</li>`).join("\n")}
+${b.showcase.map((s) => `          <li><strong>${esc(s.title)}</strong> — ${esc(s.description)}</li>`).join("\n")}
         </ul>`
     : "";
 
-  writeRoute(`s/${p.slug}`, renderPage({
-    title: `${p.name} — ${p.role} at ${p.company} | ${site.name}`,
+  const person = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    name: b.name,
+    jobTitle: b.role,
+    worksFor: { "@type": "Organization", name: b.company },
+    address: { "@type": "PostalAddress", addressLocality: b.city, addressCountry: "ID" },
+    url,
+    image,
+    description,
+    knowsAbout: [disciplineLabel, ...b.tags],
+  };
+  if (b.linkedin) person.sameAs = [b.linkedin];
+
+  writeRoute(`s/${b.slug}`, renderPage({
+    title: `${b.name} — ${b.role} at ${b.company} | ${site.name}`,
     description,
     url,
     image,
     ogType: "profile",
-    jsonLdBlocks: [
-      {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        name: p.name,
-        jobTitle: p.role,
-        worksFor: { "@type": "Organization", name: p.company },
-        address: { "@type": "PostalAddress", addressLocality: p.city, addressCountry: "ID" },
-        url,
-        image,
-        sameAs: [p.linkedin],
-        description,
-        knowsAbout: p.tags,
-      },
-    ],
+    jsonLdBlocks: [person],
     noscript: `    <noscript>
       <main>
         <article>
-          <h1>${esc(p.name)}${p.claimed ? " ✓" : ""}</h1>
-          ${p.claimed ? "<p><strong>✓ Verified profile</strong> — claimed and maintained by the PM.</p>" : ""}
-          <p><strong>${esc(p.role)}</strong> at ${esc(p.company)} — ${esc(p.city)}, Indonesia</p>
-${p.bio.map((b) => `          <p>${esc(b)}</p>`).join("\n")}
-          <p>Specialties: ${p.tags.map(esc).join(", ")}. Experience: ${esc(p.experience)}.</p>
+          <h1>${esc(b.name)}${b.claimed ? " ✓" : ""}</h1>
+          ${b.claimed ? "<p><strong>✓ Verified profile</strong> — claimed and maintained by the builder.</p>" : ""}
+          <p><strong>${esc(disciplineLabel)}</strong> · ${esc(b.role)} at ${esc(b.company)} — ${esc(b.city)}, Indonesia</p>
+${b.bio.map((line) => `          <p>${esc(line)}</p>`).join("\n")}
+          <p>Specialties: ${b.tags.map(esc).join(", ")}. Experience: ${esc(b.experience)}.</p>
 ${showcaseHtml}
-          <p><a href="${esc(p.linkedin)}" rel="noopener">View ${esc(p.name)} on LinkedIn</a></p>
+          ${b.linkedin ? `<p><a href="${esc(b.linkedin)}" rel="noopener">View ${esc(b.name)} on LinkedIn</a></p>` : ""}
           <p><a href="/">&larr; Browse the full ${esc(site.name)} index</a></p>
         </article>
       </main>
@@ -211,7 +221,7 @@ const today = new Date().toISOString().slice(0, 10);
 const urls = [
   { loc: site.url + "/", priority: "1.0" },
   { loc: site.url + "/about", priority: "0.5" },
-  ...pms.map((p) => ({ loc: `${site.url}/s/${p.slug}`, priority: "0.8" })),
+  ...builders.map((b) => ({ loc: `${site.url}/s/${b.slug}`, priority: "0.8" })),
 ];
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -220,4 +230,4 @@ ${urls.map((u) => `  <url><loc>${u.loc}</loc><lastmod>${today}</lastmod><priorit
 `;
 writeFileSync(path.join(DIST, "sitemap.xml"), sitemap);
 
-console.log(`[prerender] ${pms.length} profiles + home + about prerendered, sitemap.xml written.`);
+console.log(`[prerender] ${builders.length} profiles + home + about prerendered, sitemap.xml written.`);

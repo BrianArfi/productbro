@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { siteConfig } from "@/lib/pm";
+import { siteConfig } from "@/lib/builders";
 
 const Footer = () => (
   <footer className="border-t border-border/60">

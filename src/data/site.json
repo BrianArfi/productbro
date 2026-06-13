@@ -1,9 +1,9 @@
 {
   "name": "ProductBro",
   "url": "https://productbro.id",
-  "tagline": "Indonesia's Product Management Index",
-  "description": "A curated, claimable index of Indonesia's product managers. Browse profiles by specialty and city, and connect on LinkedIn.",
-  "sampleData": true,
+  "tagline": "Indonesia's Product Builder Index",
+  "description": "A curated, claimable index of the people building Indonesia's products — product managers, engineers, designers, dealmakers, educators, and founders. Seeded from guests of the BroBri podcast by Brian Arfi. Browse by discipline and city, connect on LinkedIn.",
+  "sampleData": false,
   "tallyClaimUrl": "https://tally.so/r/REPLACE_WITH_CLAIM_FORM",
   "tallyListUrl": "https://tally.so/r/REPLACE_WITH_GET_LISTED_FORM",
   "contactEmail": "halo@productbro.id"

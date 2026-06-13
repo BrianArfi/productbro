@@ -3,28 +3,28 @@ import { Link, useParams } from "react-router-dom";
 import { ArrowLeft, ArrowUpRight, Linkedin } from "lucide-react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import PMPhoto from "@/components/PMPhoto";
+import BuilderPhoto from "@/components/BuilderPhoto";
 import VerifiedBadge from "@/components/VerifiedBadge";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { findPM, siteConfig } from "@/lib/pm";
+import { DISCIPLINE_LABEL, findBuilder, siteConfig } from "@/lib/builders";
 import NotFound from "./NotFound";
 
 const Profile = () => {
   const { slug } = useParams();
-  const pm = findPM(slug);
+  const builder = findBuilder(slug);
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    if (pm) {
-      document.title = `${pm.name} — ${pm.role} at ${pm.company} | ${siteConfig.name}`;
+    if (builder) {
+      document.title = `${builder.name} — ${builder.role} at ${builder.company} | ${siteConfig.name}`;
     }
-  }, [pm]);
+  }, [builder]);
 
-  if (!pm) return <NotFound />;
+  if (!builder) return <NotFound />;
 
-  const claimUrl = `${siteConfig.tallyClaimUrl}?slug=${pm.slug}`;
-  const firstName = pm.name.split(" ")[0];
+  const claimUrl = `${siteConfig.tallyClaimUrl}?slug=${builder.slug}`;
+  const firstName = builder.name.split(" ")[0];
 
   return (
     <div className="flex min-h-screen flex-col">
@@ -42,14 +42,16 @@ const Profile = () => {
           {/* Left column */}
           <div className="space-y-4">
             <div className="overflow-hidden rounded-xl border bg-card">
-              <PMPhoto pm={pm} className="aspect-[4/5] w-full object-cover" />
+              <BuilderPhoto builder={builder} className="aspect-[4/5] w-full object-cover" />
             </div>
-            <Button className="w-full" asChild>
-              <a href={pm.linkedin} target="_blank" rel="noreferrer">
-                <Linkedin /> Connect on LinkedIn
-              </a>
-            </Button>
-            {pm.claimed ? (
+            {builder.linkedin && (
+              <Button className="w-full" asChild>
+                <a href={builder.linkedin} target="_blank" rel="noreferrer">
+                  <Linkedin /> Connect on LinkedIn
+                </a>
+              </Button>
+            )}
+            {builder.claimed ? (
               <p className="text-center text-sm text-muted-foreground">
                 ✓ Claimed and maintained by {firstName}.
               </p>
@@ -66,7 +68,7 @@ const Profile = () => {
                     </a>
                   </Button>
                   <a
-                    href={`mailto:${siteConfig.contactEmail}?subject=Update/remove profile: ${pm.slug}`}
+                    href={`mailto:${siteConfig.contactEmail}?subject=Update/remove profile: ${builder.slug}`}
                     className="text-xs text-muted-foreground underline-offset-4 hover:underline"
                   >
                     Request an update or removal
@@ -78,19 +80,20 @@ const Profile = () => {
 
           {/* Right column */}
           <article>
-            <div className="flex flex-wrap items-center gap-3">
-              <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{pm.name}</h1>
-              {pm.claimed && <VerifiedBadge />}
+            <p className="micro-label !text-primary">{DISCIPLINE_LABEL[builder.discipline]}</p>
+            <div className="mt-2 flex flex-wrap items-center gap-3">
+              <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">{builder.name}</h1>
+              {builder.claimed && <VerifiedBadge />}
             </div>
             <p className="mt-2 text-lg text-muted-foreground">
-              {pm.role} at <span className="font-medium text-foreground">{pm.company}</span>
+              {builder.role} at <span className="font-medium text-foreground">{builder.company}</span>
             </p>
             <p className="micro-label mt-3">
-              {pm.city} · {pm.experience} · {pm.focus}
+              {builder.city} · {builder.experience} · {builder.focus}
             </p>
 
             <div className="mt-5 flex flex-wrap gap-2">
-              {pm.tags.map((tag) => (
+              {builder.tags.map((tag) => (
                 <Badge
                   key={tag}
                   variant="secondary"
@@ -102,16 +105,16 @@ const Profile = () => {
             </div>
 
             <div className="mt-8 space-y-4 leading-relaxed text-foreground/90">
-              {pm.bio.map((paragraph, i) => (
+              {builder.bio.map((paragraph, i) => (
                 <p key={i}>{paragraph}</p>
               ))}
             </div>
 
-            {pm.showcase && pm.showcase.length > 0 && (
+            {builder.showcase && builder.showcase.length > 0 && (
               <section className="mt-10">
                 <h2 className="micro-label !text-primary">Showcase</h2>
                 <div className="mt-4 space-y-3">
-                  {pm.showcase.map((item, i) => (
+                  {builder.showcase.map((item, i) => (
                     <div key={i} className="rounded-xl border bg-card p-5">
                       <h3 className="font-semibold leading-snug">{item.title}</h3>
                       <p className="mt-1.5 text-sm text-muted-foreground">{item.description}</p>

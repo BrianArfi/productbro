@@ -12,9 +12,9 @@ const SearchBar = ({ value, onChange }: SearchBarProps) => (
     <Input
       value={value}
       onChange={(e) => onChange(e.target.value)}
-      placeholder="Search by name, company, or specialty…"
+      placeholder="Search by name, company, discipline, or specialty…"
       className="h-14 rounded-xl border-border bg-card pl-12 pr-12 text-base shadow-sm"
-      aria-label="Search product managers"
+      aria-label="Search product builders"
     />
     {value && (
       <button

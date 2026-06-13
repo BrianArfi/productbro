@@ -1,7 +1,16 @@
 import { cn } from "@/lib/utils";
-import { allCities, allTags, type SortKey } from "@/lib/pm";
+import {
+  allCities,
+  allDisciplines,
+  allTags,
+  DISCIPLINE_LABEL,
+  type Discipline,
+  type SortKey,
+} from "@/lib/builders";
 
 interface FilterChipsProps {
+  discipline: Discipline | null;
+  onDiscipline: (discipline: Discipline | null) => void;
   tags: string[];
   onToggleTag: (tag: string) => void;
   city: string | null;
@@ -35,8 +44,34 @@ const Chip = ({
   </button>
 );
 
-const FilterChips = ({ tags, onToggleTag, city, onCity, sort, onSort }: FilterChipsProps) => (
+const FilterChips = ({
+  discipline,
+  onDiscipline,
+  tags,
+  onToggleTag,
+  city,
+  onCity,
+  sort,
+  onSort,
+}: FilterChipsProps) => (
   <div className="space-y-3">
+    {/* Discipline — the primary filter */}
+    <div className="flex flex-wrap justify-center gap-2">
+      <Chip active={discipline === null} onClick={() => onDiscipline(null)}>
+        Everyone
+      </Chip>
+      {allDisciplines.map((d) => (
+        <Chip
+          key={d}
+          active={discipline === d}
+          onClick={() => onDiscipline(discipline === d ? null : d)}
+        >
+          {DISCIPLINE_LABEL[d]}
+        </Chip>
+      ))}
+    </div>
+
+    {/* Specialties */}
     <div className="flex flex-wrap justify-center gap-2">
       {allTags.map((tag) => (
         <Chip key={tag} active={tags.includes(tag)} onClick={() => onToggleTag(tag)}>
@@ -44,6 +79,8 @@ const FilterChips = ({ tags, onToggleTag, city, onCity, sort, onSort }: FilterCh
         </Chip>
       ))}
     </div>
+
+    {/* Cities + sort */}
     <div className="flex flex-wrap items-center justify-center gap-2">
       <Chip active={city === null} onClick={() => onCity(null)}>
         All cities
