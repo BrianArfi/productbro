@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ProductBro hero</title>
+<!-- Rendered to docs/hero.gif by render_gifs.py (1400x700, 9 s loop) and to docs/hero.png (the still, at 7.6 s).
+     Illustration: the scattered ways people look for builders today (LinkedIn search, a WhatsApp group ask,
+     a tweet, a spreadsheet) collapse into one ProductBro index. Builders shown are the sample people from
+     sample-builders.json (Dina, Ayu, Eko), not real profiles. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{--paper:#F1F3EE;--field:#0D453E;--ink:#072B27;--signal:#C8F751;--orange:#FF8A3D;
+        --sans:'Archivo',system-ui,sans-serif;--mono:'JetBrains Mono',ui-monospace,Consolas,monospace}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1400px;height:700px;overflow:hidden}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);position:relative}
+  .a{animation-duration:.5s;animation-fill-mode:both;animation-timing-function:cubic-bezier(.2,.8,.2,1)}
+  @keyframes pop{0%{opacity:0;transform:var(--r) scale(.5)}70%{opacity:1;transform:var(--r) scale(1.06)}100%{opacity:1;transform:var(--r) scale(1)}}
+  @keyframes fly{0%{opacity:1;transform:var(--r) scale(1)}100%{opacity:0;transform:translate(var(--dx),var(--dy)) rotate(0) scale(.25)}}
+  @keyframes up{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  @keyframes type{from{width:0}to{width:7ch}}
+  @keyframes stamp{0%{opacity:0;transform:rotate(-8deg) scale(2.2)}60%{opacity:1;transform:rotate(-8deg) scale(.92)}100%{opacity:1;transform:rotate(-8deg) scale(1)}}
+  @keyframes chipon{to{background:var(--signal);color:var(--ink);border-color:var(--signal)}}
+  @keyframes out{from{opacity:1}to{opacity:0}}
+
+  /* left copy: static from frame 0, so the loop never jumps */
+  .copy{position:absolute;left:64px;top:165px;width:590px}
+  .kicker{font-family:var(--mono);font-size:24px;font-weight:700;color:var(--field);margin-bottom:26px;display:inline-flex;align-items:center;gap:12px}
+  .kicker i{width:14px;height:14px;border-radius:3px;background:var(--signal);border:3px solid var(--ink)}
+  h1{font-size:56px;line-height:1.06;font-weight:900;letter-spacing:-.035em}
+  h1 .hl{position:relative;z-index:0;white-space:nowrap}
+  h1 .hl:after{content:"";position:absolute;left:-6px;right:-6px;bottom:4px;height:22px;background:var(--signal);z-index:-1;border-radius:4px}
+  .sub{margin-top:28px;font-size:24px;line-height:1.4;font-weight:600;color:var(--field)}
+  .steps{margin-top:30px;display:flex;gap:10px;flex-wrap:wrap}
+  .steps span{font-family:var(--mono);font-size:18px;font-weight:700;border:2px solid var(--ink);border-radius:999px;padding:5px 14px;background:#fff}
+
+  .stage{position:absolute;left:660px;top:40px;width:700px;height:620px}
+  .tag{position:absolute;font-family:var(--mono);font-size:18px;font-weight:700;border-radius:999px;padding:5px 14px;border:2px solid var(--field);background:#fff;color:var(--field)}
+
+  /* scattered fragments */
+  .frag{position:absolute;background:#fff;border:3px solid var(--ink);border-radius:16px;box-shadow:6px 6px 0 var(--ink);padding:14px 16px;
+    animation-name:pop,fly;animation-duration:.5s,.7s;animation-fill-mode:both,forwards;animation-timing-function:cubic-bezier(.2,.8,.2,1),cubic-bezier(.6,0,.8,.4)}
+  .src{font-family:var(--mono);font-size:16px;font-weight:700;color:var(--field);display:flex;align-items:center;gap:8px;margin-bottom:8px}
+  .src b{display:inline-grid;place-items:center;width:26px;height:26px;border-radius:6px;color:#fff;font-size:15px}
+  .q{font-size:21px;font-weight:700;line-height:1.25}
+  .bar{height:10px;border-radius:5px;background:#DCE2DA;margin-top:9px}
+  .wa{background:#DCF8C6}
+  .sheet{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;margin-top:8px}
+  .sheet i{height:14px;background:#E6ECE4;border-radius:2px}
+
+  /* the index */
+  .ix{position:absolute;left:30px;top:70px;width:650px;height:470px;background:#0B0D14;border:3px solid var(--ink);border-radius:18px;box-shadow:8px 8px 0 var(--ink);overflow:hidden;color:#EEF0F6}
+  .ixbar{height:52px;border-bottom:1px solid #222838;display:flex;align-items:center;padding:0 20px;font-family:var(--mono);font-size:21px;font-weight:700}
+  .ixbar em{color:var(--orange);font-style:normal}
+  .ixbar span{margin-left:auto;font-family:var(--sans);font-size:16px;background:var(--orange);color:#0B0D14;border-radius:8px;padding:5px 10px}
+  .search{margin:20px 20px 0;height:52px;border:1px solid #2A3042;border-radius:12px;display:flex;align-items:center;gap:12px;padding:0 16px;font-size:21px}
+  .search .t{display:inline-block;overflow:hidden;white-space:nowrap;width:0;font-weight:600;animation:type .9s steps(7) both}
+  .search svg{flex:none}
+  .chips{display:flex;gap:8px;margin:14px 20px 0}
+  .chip{font-family:var(--mono);font-size:16px;font-weight:700;border:1px solid #2A3042;border-radius:999px;padding:4px 12px;color:#A8AFC2;background:#141826}
+  .chip.on{animation:chipon .25s both}
+  .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:18px 20px 0}
+  .card{background:#11141E;border:1px solid #222838;border-radius:12px;overflow:hidden;position:relative}
+  .mono{height:150px;display:grid;place-items:center;font-family:var(--mono);font-size:40px;font-weight:700;color:rgba(255,255,255,.88)}
+  .card .nm{padding:10px 12px 0;font-size:19px;font-weight:800}
+  .card .rl{padding:3px 12px 12px;font-size:16px;color:#A8AFC2;line-height:1.3}
+  .disc{position:absolute;left:8px;top:8px;font-family:var(--mono);font-size:13px;font-weight:700;background:rgba(11,13,20,.8);border-radius:6px;padding:2px 7px}
+  .ver{position:absolute;right:-6px;top:44px;background:var(--signal);color:var(--ink);border:3px solid var(--ink);border-radius:10px;padding:5px 10px;font-family:var(--mono);font-size:17px;font-weight:700;box-shadow:4px 4px 0 var(--ink);white-space:nowrap}
+
+  .cover{position:absolute;left:640px;top:0;width:760px;height:700px;background:var(--paper);opacity:0;animation:fade .45s linear 8.5s both}
+</style>
+</head>
+<body>
+  <div class="copy">
+    <div class="kicker"><i></i>productbro_</div>
+    <h1>Who builds products<br>in Indonesia?<br><span class="hl">Search one index.</span></h1>
+    <div class="sub">Product managers, engineers, designers, dealmakers, educators and founders, each with a public profile they can claim.</div>
+    <div class="steps"><span>search</span><span>filter</span><span>open a profile</span><span>claim it</span></div>
+  </div>
+
+  <div class="stage">
+    <div class="tag a" style="left:0;top:0;animation-name:fade,out;animation-delay:.1s,3.3s;animation-duration:.4s,.3s">Today: ask around, everywhere</div>
+
+    <div class="frag" style="--r:rotate(-4deg);--dx:240px;--dy:170px;left:10px;top:70px;width:330px;animation-delay:.3s,2.7s">
+      <div class="src"><b style="background:#0A66C2">in</b>LinkedIn search</div>
+      <div class="q">"head of product fintech jakarta"</div>
+      <div class="bar" style="width:90%"></div><div class="bar" style="width:70%"></div><div class="bar" style="width:80%"></div>
+    </div>
+    <div class="frag wa" style="--r:rotate(3deg);--dx:-150px;--dy:160px;left:370px;top:60px;width:310px;animation-delay:.8s,2.8s">
+      <div class="src"><b style="background:#25D366">W</b>WhatsApp group</div>
+      <div class="q">"Ada yang kenal PM fintech di Jakarta?"</div>
+      <div class="src" style="margin:8px 0 0;font-weight:500">no replies yet</div>
+    </div>
+    <div class="frag" style="--r:rotate(2deg);--dx:220px;--dy:-90px;left:20px;top:330px;width:320px;animation-delay:1.3s,2.9s">
+      <div class="src"><b style="background:#111">X</b>a tweet</div>
+      <div class="q">"Who is building product in Indonesia? Drop names."</div>
+    </div>
+    <div class="frag" style="--r:rotate(-3deg);--dx:-140px;--dy:-110px;left:380px;top:330px;width:290px;animation-delay:1.8s,3s">
+      <div class="src"><b style="background:#1D6F42">x</b>a shared sheet</div>
+      <div class="q">pm-list-FINAL-v3.xlsx</div>
+      <div class="sheet"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    </div>
+
+    <div class="tag a" style="left:0;top:0;background:var(--signal);border-color:var(--ink);color:var(--ink);animation-name:fade;animation-delay:3.6s">With ProductBro: one index</div>
+
+    <div class="ix a" style="animation-name:up;animation-delay:3.5s">
+      <div class="ixbar">productbro<em>_</em><span>Get listed</span></div>
+      <div class="search">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#A8AFC2" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+        <span class="t" style="animation-delay:4.1s">fintech</span>
+      </div>
+      <div class="chips">
+        <span class="chip">Everyone</span>
+        <span class="chip">Product</span>
+        <span class="chip">Engineering</span>
+        <span class="chip">Design</span>
+        <span class="chip on" style="animation-delay:5.1s">Jakarta</span>
+      </div>
+      <div class="grid">
+        <div class="card a" style="animation-name:up;animation-delay:5.3s">
+          <div class="mono" style="background:radial-gradient(125% 125% at 25% 15%,hsl(48 42% 23%) 0%,hsl(93 55% 8%) 100%)">DP</div>
+          <span class="disc">PRODUCT</span>
+          <div class="nm">Dina Pratama</div><div class="rl">Head of Product<br>ContohPay</div>
+        </div>
+        <div class="card a" style="animation-name:up;animation-delay:5.45s">
+          <div class="mono" style="background:radial-gradient(125% 125% at 25% 15%,hsl(345 42% 23%) 0%,hsl(30 55% 8%) 100%)">AL</div>
+          <span class="disc">PRODUCT</span>
+          <div class="nm">Ayu Lestari</div><div class="rl">Senior PM<br>ContohBank</div>
+        </div>
+        <div class="card a" style="animation-name:up;animation-delay:5.6s">
+          <div class="mono" style="background:radial-gradient(125% 125% at 25% 15%,hsl(205 42% 23%) 0%,hsl(250 55% 8%) 100%)">EP</div>
+          <span class="disc">ENGINEERING</span>
+          <div class="nm">Eko Prasetyo</div><div class="rl">Eng Manager<br>ContohPay</div>
+        </div>
+      </div>
+      <div class="ver a" style="left:36px;top:250px;right:auto;animation-name:stamp;animation-delay:6.4s">&#10003; Claimed by Dina</div>
+    </div>
+  </div>
+  <div class="cover"></div>
+</body>
+</html>

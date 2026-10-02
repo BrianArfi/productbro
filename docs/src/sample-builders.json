@@ -1,0 +1,213 @@
+[
+  {
+    "slug": "dina-pratama",
+    "name": "Dina Pratama",
+    "discipline": "PRODUCT",
+    "role": "Head of Product",
+    "company": "ContohPay",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "PAYMENTS",
+      "GROWTH"
+    ],
+    "focus": "FINTECH PM",
+    "experience": "10+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Dina is a sample profile used to demo ProductBro. Dina works as Head of Product at ContohPay, a made-up company, in Jakarta.",
+      "Every name, company and fact on this profile is invented for the README recording."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "sam-wijaya",
+    "name": "Sam Wijaya",
+    "discipline": "ENGINEERING",
+    "role": "Staff Engineer",
+    "company": "ContohMart",
+    "city": "Bandung",
+    "tags": [
+      "E-COMMERCE",
+      "PLATFORM"
+    ],
+    "focus": "PLATFORM ENG",
+    "experience": "8+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Sam is a sample profile used to demo ProductBro. Sam works as Staff Engineer at ContohMart, a made-up company, in Bandung.",
+      "Every name, company and fact on this profile is invented for the README recording. It is marked claimed to show the Verified badge."
+    ],
+    "claimed": true
+  },
+  {
+    "slug": "maya-putri",
+    "name": "Maya Putri",
+    "discipline": "DESIGN",
+    "role": "Lead Product Designer",
+    "company": "ContohHealth",
+    "city": "Yogyakarta",
+    "tags": [
+      "HEALTHTECH",
+      "UX RESEARCH"
+    ],
+    "focus": "PRODUCT DESIGN",
+    "experience": "7+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Maya is a sample profile used to demo ProductBro. Maya works as Lead Product Designer at ContohHealth, a made-up company, in Yogyakarta.",
+      "Every name, company and fact on this profile is invented for the README recording."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "ayu-lestari",
+    "name": "Ayu Lestari",
+    "discipline": "PRODUCT",
+    "role": "Senior Product Manager",
+    "company": "ContohBank",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "DIGITAL BANKING"
+    ],
+    "focus": "BANKING PM",
+    "experience": "6+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Ayu is a sample profile used to demo ProductBro. Ayu works as Senior Product Manager at ContohBank, a made-up company, in Jakarta.",
+      "Every name, company and fact on this profile is invented for the README recording."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "bima-santoso",
+    "name": "Bima Santoso",
+    "discipline": "FOUNDER",
+    "role": "Co-founder & CEO",
+    "company": "ContohAgri",
+    "city": "Surabaya",
+    "tags": [
+      "AGRITECH",
+      "MARKETPLACE"
+    ],
+    "focus": "FOUNDER",
+    "experience": "12+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Bima is a sample profile used to demo ProductBro. Bima works as Co-founder & CEO at ContohAgri, a made-up company, in Surabaya.",
+      "Every name, company and fact on this profile is invented for the README recording."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "citra-dewi",
+    "name": "Citra Dewi",
+    "discipline": "BUSINESS",
+    "role": "Head of Partnerships",
+    "company": "ContohTravel",
+    "city": "Bali",
+    "tags": [
+      "TRAVEL",
+      "PARTNERSHIPS"
+    ],
+    "focus": "BIZDEV",
+    "experience": "9+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Citra is a sample profile used to demo ProductBro. Citra works as Head of Partnerships at ContohTravel, a made-up company, in Bali.",
+      "Every name, company and fact on this profile is invented for the README recording."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "eko-prasetyo",
+    "name": "Eko Prasetyo",
+    "discipline": "ENGINEERING",
+    "role": "Engineering Manager",
+    "company": "ContohPay",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "AI"
+    ],
+    "focus": "ENG LEAD",
+    "experience": "11+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Eko is a sample profile used to demo ProductBro. Eko works as Engineering Manager at ContohPay, a made-up company, in Jakarta.",
+      "Every name, company and fact on this profile is invented for the README recording."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "fajar-nugroho",
+    "name": "Fajar Nugroho",
+    "discipline": "EDUCATION",
+    "role": "Product Coach",
+    "company": "ContohAcademy",
+    "city": "Bandung",
+    "tags": [
+      "EDTECH",
+      "PRODUCT DISCOVERY"
+    ],
+    "focus": "PM COACH",
+    "experience": "14+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Fajar is a sample profile used to demo ProductBro. Fajar works as Product Coach at ContohAcademy, a made-up company, in Bandung.",
+      "Every name, company and fact on this profile is invented for the README recording."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "gita-maharani",
+    "name": "Gita Maharani",
+    "discipline": "PRODUCT",
+    "role": "Group Product Manager",
+    "company": "ContohMart",
+    "city": "Jakarta",
+    "tags": [
+      "E-COMMERCE",
+      "GROWTH"
+    ],
+    "focus": "GROWTH PM",
+    "experience": "9+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Gita is a sample profile used to demo ProductBro. Gita works as Group Product Manager at ContohMart, a made-up company, in Jakarta.",
+      "Every name, company and fact on this profile is invented for the README recording."
+    ],
+    "claimed": false
+  },
+  {
+    "slug": "hana-kusuma",
+    "name": "Hana Kusuma",
+    "discipline": "DESIGN",
+    "role": "UX Researcher",
+    "company": "ContohBank",
+    "city": "Jakarta",
+    "tags": [
+      "FINTECH",
+      "UX RESEARCH"
+    ],
+    "focus": "RESEARCH",
+    "experience": "5+ YRS",
+    "linkedin": "",
+    "photo": "",
+    "bio": [
+      "Hana is a sample profile used to demo ProductBro. Hana works as UX Researcher at ContohBank, a made-up company, in Jakarta.",
+      "Every name, company and fact on this profile is invented for the README recording."
+    ],
+    "claimed": false
+  }
+]

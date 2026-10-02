@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>ProductBro how it works</title>
+<!-- Rendered to docs/how-it-works.gif by render_gifs.py (1200x640, 11 s loop). Illustration of the real pipeline:
+     src/data/builders.json -> npm run build (vite build + scripts/prerender.mjs) -> dist/ with one static page
+     per profile and sitemap.xml -> a static host. Claim loop: the Claim profile button opens the Tally form from
+     site.json with ?slug=<slug>; the maintainer edits builders.json (claimed: true) and rebuilds. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+  :root{--paper:#F1F3EE;--field:#0D453E;--ink:#072B27;--signal:#C8F751;--sans:'Archivo',system-ui,sans-serif;--mono:'JetBrains Mono',ui-monospace,Consolas,monospace}
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{width:1200px;height:640px;overflow:hidden}
+  body{background:var(--paper);color:var(--ink);font-family:var(--sans);position:relative}
+  .a{animation-duration:.5s;animation-fill-mode:both;animation-timing-function:cubic-bezier(.2,.8,.2,1)}
+  @keyframes up{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
+  @keyframes fade{from{opacity:0}to{opacity:1}}
+  @keyframes pop{0%{opacity:0;transform:scale(.4)}70%{opacity:1;transform:scale(1.12)}100%{opacity:1;transform:scale(1)}}
+  @keyframes draw{0%{stroke-dashoffset:var(--len);opacity:0}6%{opacity:1}100%{stroke-dashoffset:0;opacity:1}}
+  @keyframes travel{0%{offset-distance:0%;opacity:0}6%{opacity:1}94%{opacity:1}100%{offset-distance:100%;opacity:0}}
+  @keyframes flash{0%,100%{box-shadow:6px 6px 0 var(--ink)}40%{box-shadow:6px 6px 0 var(--ink),0 0 0 6px var(--signal)}}
+
+  .title{position:absolute;left:24px;top:24px;font-size:34px;font-weight:900;letter-spacing:-.03em}
+  .title .hl{position:relative;z-index:0}
+  .title .hl:after{content:"";position:absolute;left:-4px;right:-4px;bottom:3px;height:13px;background:var(--signal);z-index:-1;border-radius:3px}
+
+  .card{position:absolute;top:96px;width:264px;height:296px;background:#fff;border:3px solid var(--ink);border-radius:16px;box-shadow:6px 6px 0 var(--ink);padding:16px}
+  .n{display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;background:var(--ink);color:var(--signal);font-family:var(--mono);font-weight:700;font-size:18px;vertical-align:middle}
+  .card h3{display:inline-block;margin-left:8px;font-size:24px;font-weight:900;letter-spacing:-.02em;vertical-align:middle}
+  .cmd{margin-top:12px;font-family:var(--mono);font-size:15px;font-weight:700;background:var(--signal);white-space:nowrap;display:inline-block;padding:3px 8px;border-radius:6px}
+  .body{margin-top:10px;font-size:18px;line-height:1.3;color:var(--field);font-weight:500}
+  .vis{position:absolute;left:16px;right:16px;bottom:14px}
+  .json{background:var(--ink);color:#DDE7E2;border-radius:10px;font-family:var(--mono);font-size:14px;line-height:1.4;padding:8px 10px}
+  .json .k{color:var(--signal)}
+  .pages{display:flex;flex-direction:column;gap:5px}
+  .pages span{font-family:var(--mono);font-size:14px;font-weight:700;border:2px solid var(--field);border-radius:8px;padding:3px 8px;color:var(--field);background:#fff}
+  .serp{border:2px solid var(--field);border-radius:10px;padding:7px 10px;background:#fff}
+  .serp b{display:block;font-size:16px;color:#1a0dab;font-weight:700}
+  .serp i{display:block;font-style:normal;font-family:var(--mono);font-size:12.5px;color:#0D652D}
+  .serp span{display:block;font-size:13.5px;color:#4d5156;line-height:1.3;margin-top:2px}
+
+  svg.flow{position:absolute;left:0;top:0;pointer-events:none}
+  .ar{fill:none;stroke:var(--ink);stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:var(--len);animation:draw .45s ease-out both}
+  .loop{fill:none;stroke:var(--field);stroke-width:4;stroke-dasharray:var(--len);stroke-linecap:round;animation:draw 1.4s ease-in-out both}
+  .dot{position:absolute;left:0;top:0;width:22px;height:22px;margin:-11px 0 0 -11px;border-radius:50%;background:var(--ink);border:4px solid var(--signal);offset-rotate:0deg}
+  .d1{offset-path:path('M150 245 L1050 245');animation:travel 1.6s ease-in-out 4.2s both}
+  .d2{offset-path:path('M1050 400 L1050 448 Q1050 472 1026 472 L174 472 Q150 472 150 448 L150 404');animation:travel 1.8s ease-in-out 7.1s both}
+
+  .step{position:absolute;top:449px;background:#fff;border:3px solid var(--ink);border-radius:999px;padding:8px 16px;font-size:19px;font-weight:700;white-space:nowrap;box-shadow:4px 4px 0 var(--ink)}
+  .step code{font-family:var(--mono);font-size:16px;background:var(--signal);padding:1px 6px;border-radius:5px}
+  .foot{position:absolute;left:24px;top:556px;font-size:22px;font-weight:700;color:var(--field)}
+  .foot .ok{background:var(--signal);color:var(--ink);padding:2px 8px;border-radius:6px;font-family:var(--mono);font-size:18px}
+  .cap{position:absolute;right:24px;bottom:12px;font-family:var(--mono);font-size:13px;color:var(--field);opacity:.7}
+  .cover{position:absolute;inset:0;background:var(--paper);opacity:0;animation:fade .4s linear 10.55s both;z-index:9}
+</style>
+</head>
+<body>
+  <div class="title a" style="animation-name:fade">From one JSON file to <span class="hl">a page Google can read for every builder</span></div>
+
+  <div class="card a" style="left:24px;animation-name:up;animation-delay:.3s">
+    <span class="n">1</span><h3>The data</h3><br>
+    <span class="cmd">src/data/builders.json</span>
+    <div class="body">One entry per builder: role, company, city, tags, bio.</div>
+    <div class="vis json">{<br>&nbsp;<span class="k">"slug"</span>: "dina-pratama",<br>&nbsp;<span class="k">"claimed"</span>: false<br>}</div>
+  </div>
+
+  <div class="card a" style="left:324px;animation-name:up;animation-delay:1.1s">
+    <span class="n">2</span><h3>The app</h3><br>
+    <span class="cmd">vite build</span>
+    <div class="body">Search, filters and a page per profile.</div>
+    <div class="vis pages"><span>/ &nbsp;the index</span><span>/s/dina-pratama</span><span>/about</span></div>
+  </div>
+
+  <div class="card a" style="left:624px;animation-name:up;animation-delay:1.9s">
+    <span class="n">3</span><h3>Prerender</h3><br>
+    <span class="cmd">scripts/prerender.mjs</span>
+    <div class="body">Static HTML per profile with meta tags and JSON-LD.</div>
+    <div class="vis pages"><span>dist/s/dina-pratama/</span><span>dist/s/ayu-lestari/</span><span>dist/sitemap.xml</span></div>
+  </div>
+
+  <div class="card a" style="left:924px;animation-name:up;animation-delay:2.7s">
+    <span class="n">4</span><h3>Found</h3><br>
+    <span class="cmd">any static host</span>
+    <div class="body">Readable without JavaScript.</div>
+    <div class="vis serp"><b>Dina Pratama, Head of Product at ContohPay</b><i>/s/dina-pratama</i><span>Sample result: title and text come from the prerendered page.</span></div>
+  </div>
+
+  <svg class="flow" width="1200" height="640">
+    <path class="ar" style="--len:40;animation-delay:.9s" d="M292 245 L318 245"/>
+    <path class="ar" style="--len:40;animation-delay:1.7s" d="M592 245 L618 245"/>
+    <path class="ar" style="--len:40;animation-delay:2.5s" d="M892 245 L918 245"/>
+    <path class="loop" style="--len:1200;animation-delay:5.9s" d="M1050 400 L1050 448 Q1050 472 1026 472 L174 472 Q150 472 150 448 L150 410"/>
+    <path class="ar" style="--len:40;animation-delay:7.2s" d="M138 420 L150 404 L162 420"/>
+  </svg>
+  <div class="dot d1"></div>
+  <div class="dot d2"></div>
+
+  <div class="step a" style="left:740px;animation-name:pop;animation-delay:6.1s">Builder presses <code>Claim profile</code></div>
+  <div class="step a" style="left:300px;animation-name:pop;animation-delay:6.6s">Form opens with <code>?slug=dina-pratama</code></div>
+  <div class="step a" style="left:40px;top:528px;animation-name:pop;animation-delay:7.1s">You set <code>"claimed": true</code> and rebuild</div>
+
+  <div class="foot a" style="animation-name:fade;animation-delay:8.7s;left:560px;top:540px">Next build: <span class="ok">&#10003; Verified</span> on the card and profile</div>
+  <div class="cap">Illustration of the build pipeline</div>
+  <div class="cover"></div>
+</body>
+</html>
